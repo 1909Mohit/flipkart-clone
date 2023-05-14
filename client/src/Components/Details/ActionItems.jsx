@@ -4,10 +4,10 @@ import { ShoppingCart as Cart, FlashOn as Flash } from '@mui/icons-material';
 
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../../redux/actions/cartActions.jsx';
+import { addToCart } from '../../redux/actions/cartActions.js';
 import { useState } from 'react';
-import { payWithPaytm } from '../../service/api.jsx';
-import { post } from '../../utils/paytm.jsx';
+import { payWithPaytm } from '../../service/api.js';
+import { post } from '../../utils/paytm.js';
 
 const LeftContainer = styled(Box)(({ theme }) => ({
   minWidth: '40%',
