@@ -1,6 +1,6 @@
 import { Box, Typography, styled, Button } from "@mui/material"
 import { useDispatch } from "react-redux";
-import { removeFromCart } from "../../redux/actions/cartActions.jsx";
+import { removeFromCart } from "../../redux/actions/cartActions.js";
 import { addEllipsis } from "../../utils/common-utils.js";
 import GroupedButton from "./GroupedButton.jsx";
 
