@@ -1,6 +1,6 @@
 
 import { Box, styled } from "@mui/material";
-import Slide from './Slide';
+import Slide from './Slide.jsx';
 
 const Component = styled(Box)`
     display:flex;

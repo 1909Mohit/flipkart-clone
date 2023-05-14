@@ -5,8 +5,9 @@ import { useState, useContext } from "react";
 import { DataContext } from "../../context/DataProvider.js";
 
 //components
-import LoginDialog from "../Login/LoginDialog";
+import LoginDialog from "../Login/LoginDialog.jsx";
 import Profile from "./Profile.jsx";
+
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 

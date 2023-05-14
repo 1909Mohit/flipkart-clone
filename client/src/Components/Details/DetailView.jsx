@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { getProductDetails } from "../../redux/actions/productActions";
+import { getProductDetails } from "../../redux/actions/productActions.js";
 
 import { Box, Typography, Grid, styled } from '@mui/material';
-import ActionItems from "./ActionItems";
-import ProductDetail from "./ProductDetail";
+import ActionItems from "./ActionItems.jsx";
+import ProductDetail from "./ProductDetail.jsx";
 
 
 const Component = styled(Box)`

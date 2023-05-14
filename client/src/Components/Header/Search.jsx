@@ -4,7 +4,7 @@ import { InputBase ,Box, styled, List, ListItem} from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getProducts } from '../../redux/actions/productActions';
+import { getProducts } from '../../redux/actions/productActions.js';
 import { Link } from 'react-router-dom';
 
 

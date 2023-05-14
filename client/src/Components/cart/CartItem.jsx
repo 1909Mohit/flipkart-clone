@@ -1,8 +1,8 @@
 import { Box, Typography, styled, Button } from "@mui/material"
 import { useDispatch } from "react-redux";
-import { removeFromCart } from "../../redux/actions/cartActions";
-import { addEllipsis } from "../../utils/common-utils";
-import GroupedButton from "./GroupedButton";
+import { removeFromCart } from "../../redux/actions/cartActions.jsx";
+import { addEllipsis } from "../../utils/common-utils.js";
+import GroupedButton from "./GroupedButton.jsx";
 
 const Component = styled(Box)`
   border-top: 1px solid #f0f0f0;

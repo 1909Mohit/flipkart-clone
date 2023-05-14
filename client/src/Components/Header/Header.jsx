@@ -1,8 +1,8 @@
 import React from 'react';
 import { AppBar, Toolbar, Box, Typography, IconButton, Drawer, List, ListItem, styled } from '@mui/material';
 import { Menu } from '@mui/icons-material';
-import Search from './Search';
-import CustomButtons from './CustomButtons';
+import Search from './Search.jsx';
+import CustomButtons from './CustomButtons.jsx';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 

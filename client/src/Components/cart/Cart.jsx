@@ -1,10 +1,10 @@
 import { Box, Grid, Typography, styled, Button } from "@mui/material";
 import { useSelector } from "react-redux";
-import { payWithPaytm } from "../../service/api";
-import { post } from "../../utils/paytm";
-import CartItem from "./CartItem";
-import EmptyCart from "./EmptyCart";
-import TotalPrice from "./TotalPrice";
+import { payWithPaytm } from "../../service/api.js";
+import { post } from "../../utils/paytm.js";
+import CartItem from "./CartItem.jsx";
+import EmptyCart from "./EmptyCart.jsx";
+import TotalPrice from "./TotalPrice.jsx";
 
 const Component = styled(Grid)(({ theme })=> ({
   padding: '30px 135px',

@@ -1,12 +1,12 @@
-import Banner from "./Banner"
-import NavBar from "./NavBar"
-import Slide from './Slide'
+import Banner from "./Banner.jsx"
+import NavBar from "./NavBar.jsx"
+import Slide from './Slide.jsx'
 import { Box, styled } from '@mui/material';
 
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../../redux/actions/productActions";
-import MidSlide from "./MidSlide";
+import { getProducts } from "../../redux/actions/productActions.js";
+import MidSlide from "./MidSlide.jsx";
 
 const Component = styled(Box)`
     padding : 8px 8px;
